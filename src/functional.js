@@ -19,5 +19,16 @@ function bark(dog){
     return bark
 }
 
-
-export { createDog, bark }
+function run(dog){
+    const run =`${dog.name} is running`
+    return run
+}
+function eat(dog) {
+    const eat = `${dog.name} is eating`
+    return eat
+}
+function turnYears(dog){
+    const turnYears = `Dante cumple ${dog.age} años`
+    return turnYears
+}
+export { createDog, bark, run, eat, turnYears }
