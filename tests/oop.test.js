@@ -19,7 +19,7 @@ test('should a dog eat', ()=> {
     const firulais = new Dog('Firulais', 3)
     expect(firulais.eat()).toBe('Firulais is eating')
 })
-test('should a dog run', ()=> {
+test('should a dog turn years', ()=> {
     const firulais = new Dog('Firulais', 3)
     expect(firulais.turnYears()).toBe('Firulais turn 3 years')
 })
